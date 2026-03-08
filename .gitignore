@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyTorch
+*.pkl
+*.pth
+*.pt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (too large for git)
+data/touchalytics/
+data/biodent/
+data/BehavePassDB/
+
+# Output
+out/
+exp/
+picture/figure/
+
+# Environment
+.env
+venv/
+.venv/
